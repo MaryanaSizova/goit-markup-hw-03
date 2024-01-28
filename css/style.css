@@ -92,16 +92,15 @@ gap: 40px;
 
 .hero{
    background:#2E2F42;
-  
+   padding-bottom: 188px;
+   padding-top: 188px;
    }
 .hero-container{
       display: flex;
       align-items: center;
       flex-direction: column;
-      
       margin: 0 auto;
-      padding-bottom: 188px;
-      padding-top: 188px;     
+       
 }
 .hero-title{
       color: #FFF;
@@ -125,6 +124,10 @@ gap: 40px;
       padding: 16px 32px;
       border-radius: 4px;
       box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+      min-width: 169px;
+      height: 56px;
+      border: none;
+
 
 }
 .hero-btn:hover,
@@ -136,10 +139,12 @@ gap: 40px;
 
 .spdt {
    background: #FFF;
+   padding-top: 120px;
+   padding-bottom: 120px;
 }
 .second{
       width: 1158px;
-      padding: 120px 0;
+      
 }
 .visually-hidden {
       position: absolute;
@@ -189,11 +194,12 @@ gap: 40px;
 
 .ourteam {
    background: #F4F4FD;
+   padding: 120px 0 120px;
 }
 
 .third{
       width: 1158px;
-      padding: 120px 0 120px;
+      
 
 }
 .ourteam-title {
@@ -208,7 +214,7 @@ gap: 40px;
  .ourteam-list{
       display: flex;
       gap: 24px;
-      flex-basis: calc((100% - 72px) / 4);
+      width: calc((100% - 72px) / 4);
       
  }
 
@@ -245,10 +251,11 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47,
  
 
 .portfolio {
+      
 }
 .fourth{
       width: 1158px;
-      padding: 120px 0 120px 0;
+     padding: 120px 0 120px 0;
 }
 .portfolio-title {
       color:#2E2F42;
@@ -257,7 +264,7 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47,
       line-height: 1.11;
       letter-spacing: 0.02em;
       text-transform: capitalize;
-      padding-bottom: 72px;
+      margin-bottom: 72px;
 }
 
 .portfolio-list {
@@ -279,8 +286,8 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47,
 }
 
 .portfolio-body{
-      padding-left: 16px;
-      padding-right: 16px ;
+      padding: 32px 16px;
+      
 }
 .portfolio-title-three {
       color: #2E2F42;
@@ -303,13 +310,13 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47,
 
 .footer {
    background: #2E2F42;
-    
+   padding-top: 100px;
+   padding-bottom: 100px;
   
 }
-.footer-container{
+.footer-body{
       width: 1158px; 
-      padding-top: 100px;
-      padding-bottom: 100px;
+      
       margin: 0 auto;
 }
 .logo-footer {
