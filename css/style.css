@@ -255,11 +255,11 @@ width: calc((100% - 72px) / 4);
  
 
 .portfolio {
-      
+      padding: 120px 0 120px 0;
 }
 .fourth{
       width: 1158px;
-     padding: 120px 0 120px 0;
+     
 }
 .portfolio-title {
       color:#2E2F42;
